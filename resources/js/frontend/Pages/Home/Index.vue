@@ -465,8 +465,7 @@
                       data-rt-animation-type="fade"
                       data-rt-animation-group="single"
                     >
-                      <span class="icon-mic heading_icon"></span> About Unique
-                      Contracting Co. LLC
+                      <span class="icon-mic heading_icon"></span> About Us
                     </h3>
                   </div>
                   <section
@@ -477,16 +476,12 @@
                     data-rt-animation-group="single"
                   >
                     <p>
-                      <strong>Unique Contracting Company L.L.C.</strong> from
-                      its incorporation in 1999, has grown and developed under
-                      the direction of Mr. Manilal H. Limbani, Managing Director
-                      to become an established and recognized organization in
-                      all sectors of the building industry. Projects completed
-                      over the past 22 years, ranging in value from R.O. 1
-                      million to R.O. 50 million. Unique Construction has
-                      extensive experience in encompassing all sectors of the
-                      industrial,commercial buildings and large scale
-                      residential developments.
+                      STC Building & Properties has been a trusted name in
+                      construction since 2017. With nearly a decade of
+                      experience in the construction industry, we are committed
+                      to delivering quality projects that maximize the value of
+                      your land. STC stays true to its commitment, guaranteeing
+                      on-time or even ahead of schedule handover.
                     </p>
                   </section>
                   <div
@@ -510,8 +505,8 @@
                       data-rt-animation-type="fade"
                       data-rt-animation-group="single"
                     >
-                      <span class="icon-volume-up heading_icon"></span>
-                      Chairman's Message
+                      <span class="icon-star-1 heading_icon"></span>
+                      Our team
                     </h3>
                   </div>
                   <section
@@ -523,23 +518,100 @@
                   >
                     <h3>Greetings to one and all!</h3>
                     <p>
-                      As history unfolds, Unique Contracting Co. LLC. has carved
-                      a perception of Integrity. Value. Accountability. Quality
-                      and Innovation. Through the application of these
-                      principles, we continue to provide value to our clients
-                      and we will consistently meet our purpose:
-                      <strong>Together Building Value Everyday. </strong>Our
-                      services and expertise have been proven through the years
-                      as our capabilities extend from the most complex projects
-                      to the simplest.
+                      Our team of skilled architects, engineers, and designers
+                      ensures modern, reliable, and customer-focused
+                      construction solutions. We strongly believe our dedication
+                      to our beloved customer and strength of construction and
+                      ever evolving our good culture will make us exemplary
+                      leaders in the construction sector. Operating mainly in
+                      northern Dhaka — including Mirpur, Agargaon, Adabor,
+                      Kalshi, and Uttara — we take pride in building properties
+                      that truly reflect your vision.
                     </p>
+                  </section>
+                  <div
+                    id="space-166114-158231"
+                    class="clearfix"
+                    style="height: 30px"
+                  ></div>
+                </div>
+              </div>
+              <div class="row clearfix">
+                <div class="box one">
+                  <div
+                    id="space-166114-43877"
+                    class="clearfix"
+                    style="height: 10px"
+                  ></div>
+                  <div class="title_line margin-b20">
+                    <h3
+                      class="featured_article_title"
+                      data-rt-animate="animate"
+                      data-rt-animation-type="fade"
+                      data-rt-animation-group="single"
+                    >
+                      <span class="icon-volume-up heading_icon"></span>
+                      Our mission, vision and core values:
+                    </h3>
+                  </div>
+                  <section
+                    id="text-box-166114-92483"
+                    class="text_box"
+                    data-rt-animate="animate"
+                    data-rt-animation-type="fadeIn"
+                    data-rt-animation-group="single"
+                  >
+                    <h3>Mission</h3>
                     <p>
-                      At this juncture, i would like to point out that being one
-                      of the prime movers for making the company as one of the
-                      leading firsm in the field of construction that we will
-                      actively persue diversity in our workplace. The markets we
-                      serve and the services we provide.
+                      To be a leading construction company in Bangladesh through
+                      securing customer satisfaction and trust.
                     </p>
+                  </section>
+                  <div
+                    id="space-166114-158231"
+                    class="clearfix"
+                    style="height: 30px"
+                  ></div>
+                  <section
+                    id="text-box-166114-92483"
+                    class="text_box"
+                    data-rt-animate="animate"
+                    data-rt-animation-type="fadeIn"
+                    data-rt-animation-group="single"
+                  >
+                    <h3>Vision</h3>
+                    <p>
+                      To become the customers' most preferred choice to every
+                      segment of our society by attaining excellence in quality
+                      and timely.
+                    </p>
+                  </section>
+                  <div
+                    id="space-166114-158231"
+                    class="clearfix"
+                    style="height: 30px"
+                  ></div>
+                  <section
+                    id="text-box-166114-92483"
+                    class="text_box"
+                    data-rt-animate="animate"
+                    data-rt-animation-type="fadeIn"
+                    data-rt-animation-group="single"
+                  >
+                    <h3>Our Core Values</h3>
+                    <ul>
+                      <li>To be the best, all the time.</li>
+                      <li>To ensure every customer is satisfied.</li>
+                      <li>
+                        To promote an environment of collaboration and respect.
+                      </li>
+                      <li>
+                        To be professional, ethical, honest and accountable.
+                      </li>
+                      <li>To continuously innovate and improve.</li>
+                      <li>To support the communities we serve.</li>
+                      <li>To be aware of after hand over service.</li>
+                    </ul>
                   </section>
                   <div
                     id="space-166114-158231"
@@ -579,13 +651,10 @@
                           <div class="text with_image">
                             <p>
                               <span class="icon-quote-left"></span>
-                              Unique Contracting Company LLC aims to make valued
-                              contributions to our client's need and
-                              satisfaction. This will be attained by
-                              collaborative efforts and exemplary performance by
-                              having qualified staff with innovative and creatie
-                              ideas and skills that are paramount to the
-                              successful implementation of our mission.
+                              To become the customers' most preferred choice to
+                              every segment of our society by attaining
+                              excellence in quality and timely.
+
                               <span class="icon-quote-right"></span>
                             </p>
                             <div class="client_info"></div>
@@ -602,9 +671,8 @@
                           <div class="text with_image">
                             <p>
                               <span class="icon-quote-left"></span>
-                              We will continue to guide, support and meet the
-                              changing needs of our clients to maintain our
-                              impeccable reputation built on performance.
+                              To be a leading construction company in Bangladesh
+                              through securing customer satisfaction and trust.
                               <span class="icon-quote-right"></span>
                             </p>
                             <div class="client_info"></div>
@@ -621,8 +689,12 @@
                           <div class="text with_image">
                             <p>
                               <span class="icon-quote-left"></span>
-                              ...نحن "نفعل الشيء الصحيح". شركة المتميز تعد من
-                              الأعمال التجارية التي بُني أساسهاعلى الثقة
+                              To be the best, all the time. To ensure every
+                              customer is satisfied. To promote an environment
+                              of collaboration and respect. To be professional,
+                              ethical, honest and accountable. To continuously
+                              innovate and improve. To support the communities
+                              we serve. To be aware of after hand over service.
                               <span class="icon-quote-right"></span>
                             </p>
                             <div class="client_info"></div>
