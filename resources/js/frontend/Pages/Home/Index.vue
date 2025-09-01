@@ -551,7 +551,7 @@
                       data-rt-animation-group="single"
                     >
                       <span class="icon-volume-up heading_icon"></span>
-                      Our mission, vision and core values:
+                      Our Focal Point:
                     </h3>
                   </div>
                   <section
@@ -561,10 +561,17 @@
                     data-rt-animation-type="fadeIn"
                     data-rt-animation-group="single"
                   >
-                    <h3>Mission</h3>
+                    <h3>A Thousand Trusts</h3>
                     <p>
-                      To be a leading construction company in Bangladesh through
-                      securing customer satisfaction and trust.
+                      At STC, every brick we lay and every structure we raise is
+                      built upon the foundation of trust. Over time, we have
+                      earned the confidence of clients, partners, and
+                      communities, making trust our greatest strength and the
+                      cornerstone of our success.
+                    </p>
+                    <p>
+                      At STC, your dream is our construction, and your
+                      satisfaction is our measure of success.
                     </p>
                   </section>
                   <div
@@ -579,11 +586,12 @@
                     data-rt-animation-type="fadeIn"
                     data-rt-animation-group="single"
                   >
-                    <h3>Vision</h3>
+                    <h3>Our Slogan</h3>
                     <p>
-                      To become the customers' most preferred choice to every
-                      segment of our society by attaining excellence in quality
-                      and timely.
+                      “Constructing Excellence” – this is not just our slogan,
+                      it is our promise. Every project we take on is executed
+                      with precision, dedication, and a commitment to surpass
+                      expectations.
                     </p>
                   </section>
                   <div
@@ -598,19 +606,15 @@
                     data-rt-animation-type="fadeIn"
                     data-rt-animation-group="single"
                   >
-                    <h3>Our Core Values</h3>
+                    <h3>Why Choose STC?</h3>
                     <ul>
-                      <li>To be the best, all the time.</li>
-                      <li>To ensure every customer is satisfied.</li>
+                      <li>Uncompromising Quality – Each project reflects the highest standards.</li>
+                      <li>Innovation-Driven Approach – Modern solutions for modern needs.</li>
+                      <li>Trusted Craftsmanship – Built on skill, experience, and dedication.</li>
+                      <li>Nation-Focused Service – We contribute to the growth and development of our country.</li>
                       <li>
-                        To promote an environment of collaboration and respect.
+                        With STC Building &amp; Properties, you don’t just get a construction company—you gain a partner who builds trust, value, and excellence.
                       </li>
-                      <li>
-                        To be professional, ethical, honest and accountable.
-                      </li>
-                      <li>To continuously innovate and improve.</li>
-                      <li>To support the communities we serve.</li>
-                      <li>To be aware of after hand over service.</li>
                     </ul>
                   </section>
                   <div
