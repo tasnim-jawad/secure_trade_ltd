@@ -6,37 +6,44 @@
                 <div class="flexslider" id="slider-562252">
                     <ul class="slides">
                         <li class="stretch" data-sliderminheight="400px" data-flexfirstslide="true">
-                            <div class="slide_data"><img src="wp-content/uploads/2018/10/01_Banner.jpg" alt=""
-                                    title="" /></div>
-                        </li>
-                        <li class="stretch">
-                            <div class="slide_data"><img src="wp-content/uploads/2015/02/02_1.jpg" alt=""
-                                    title="" /></div>
-                        </li>
-                        <li class="stretch">
-                            <div class="slide_data"><img src="wp-content/uploads/2015/02/03_1.jpg" alt=""
-                                    title="" /></div>
-                        </li>
-                        <li class="stretch">
-                            <div class="slide_data"><img src="wp-content/uploads/2015/02/04_1.jpg" alt=""
-                                    title="" /></div>
-                        </li>
-                        <li class="stretch">
-                            <div class="slide_data"><img src="wp-content/uploads/2015/02/DSC3891-1700x800.jpg"
-                                    alt="" title="" /></div>
-                        </li>
-                        <li class="stretch">
-                            <div class="slide_data"><img src="wp-content/uploads/2015/02/DSC3329-1700x800.jpg"
-                                    alt="" title="" /></div>
-                        </li>
-                        <li class="stretch">
-                            <div class="slide_data"><img src="wp-content/uploads/2015/02/DSC3193-1700x800.jpg"
+                            <div class="slide_data"><img
+                                    src="{{ asset('assets/frontend/wp-content/uploads/2018/10/01_Banner.jpg') }}"
                                     alt="" title="" /></div>
                         </li>
                         <li class="stretch">
                             <div class="slide_data"><img
-                                    src="wp-content/uploads/2017/01/DSC_8424_Easy-Resize.com_-1280x800.jpg" alt=""
+                                    src="{{ asset('assets/frontend/wp-content/uploads/2015/02/02_1.jpg') }}" alt=""
                                     title="" /></div>
+                        </li>
+                        <li class="stretch">
+                            <div class="slide_data"><img
+                                    src="{{ asset('assets/frontend/wp-content/uploads/2015/02/03_1.jpg') }}" alt=""
+                                    title="" /></div>
+                        </li>
+                        <li class="stretch">
+                            <div class="slide_data"><img
+                                    src="{{ asset('assets/frontend/wp-content/uploads/2015/02/04_1.jpg') }}" alt=""
+                                    title="" /></div>
+                        </li>
+                        <li class="stretch">
+                            <div class="slide_data"><img
+                                    src="{{ asset('assets/frontend/wp-content/uploads/2015/02/DSC3891-1700x800.jpg') }}"
+                                    alt="" title="" /></div>
+                        </li>
+                        <li class="stretch">
+                            <div class="slide_data"><img
+                                    src="{{ asset('assets/frontend/wp-content/uploads/2015/02/DSC3329-1700x800.jpg') }}"
+                                    alt="" title="" /></div>
+                        </li>
+                        <li class="stretch">
+                            <div class="slide_data"><img
+                                    src="{{ asset('assets/frontend/wp-content/uploads/2015/02/DSC3193-1700x800.jpg') }}"
+                                    alt="" title="" /></div>
+                        </li>
+                        <li class="stretch">
+                            <div class="slide_data"><img
+                                    src="{{ asset('assets/frontend/wp-content/uploads/2017/01/DSC_8424_Easy-Resize.com_-1280x800.jpg') }}"
+                                    alt="" title="" /></div>
                         </li>
                     </ul>
                 </div>
@@ -80,7 +87,8 @@
                                         data-rt-animation-type="fadeIn" data-rt-animation-group="single">
                                         <div class="featured_image_holder rounded_image pin bw_filter">
                                             <a href="major-completed-projects/index.html" title="Major Completed Projects"
-                                                target="_self"><img src="wp-content/uploads/2015/02/03_2-480x400.jpg"
+                                                target="_self"><img
+                                                    src="{{ asset('assets/frontend/wp-content/uploads/2015/02/03_2-480x400.jpg') }}"
                                                     class="aligncenter" alt="" /></a>
                                         </div>
                                         <div class="space margin-b20"></div>
@@ -99,7 +107,8 @@
                                         data-rt-animation-type="fadeIn" data-rt-animation-group="single">
                                         <div class="featured_image_holder rounded_image pin bw_filter">
                                             <a href="on-going-projects/index.html" title="Ongoing Projects"
-                                                target="_self"><img src="wp-content/uploads/2015/04/DSC_4654-480x480.jpg"
+                                                target="_self"><img
+                                                    src="{{ asset('assets/frontend/wp-content/uploads/2015/04/DSC_4654-480x480.jpg') }}"
                                                     class="aligncenter" alt="" /></a>
                                         </div>
                                         <div class="space margin-b20"></div>
@@ -117,7 +126,7 @@
                                         data-rt-animation-type="fadeIn" data-rt-animation-group="single">
                                         <div class="featured_image_holder rounded_image pin bw_filter">
                                             <a href="key-projects/index.html" title="Key Projects" target="_blank"><img
-                                                    src="wp-content/uploads/2015/02/DSC3009-480x480.jpg"
+                                                    src="{{ asset('assets/frontend/wp-content/uploads/2015/02/DSC3009-480x480.jpg') }}"
                                                     class="aligncenter" alt="" /></a>
                                         </div>
                                         <div class="space margin-b20"></div>
@@ -158,12 +167,12 @@
                                                             data-thumbTooltip="" data-scaleUp="" data-href=""
                                                             data-width="" data-height="" data-flashHasPriority=""
                                                             data-poster="" data-autoplay="" data-audiotitle=""
-                                                            href="wp-content/uploads/2018/09/J-257-INMA-Ghubrah-Residential-View-1.jpg"></a>
+                                                            href="{{ asset('assets/frontend/wp-content/uploads/2018/09/J-257-INMA-Ghubrah-Residential-View-1.jpg') }}"></a>
                                                         <a href="portfolio/residential-apartments-building-for-inma-al-gubrah-j257/index.html"
                                                             target="_self" class="icon-link"
                                                             title="Residential Apartments Building for Inma @ Al Gubrah &#8211; J257"
                                                             rel="bookmark"></a>
-                                                        <img src="wp-content/uploads/2018/09/J-257-INMA-Ghubrah-Residential-View-1-480x270.jpg"
+                                                        <img src="{{ asset('assets/frontend/wp-content/uploads/2018/09/J-257-INMA-Ghubrah-Residential-View-1-480x270.jpg') }}"
                                                             alt="" class="" />
                                                     </div>
                                                 </div>
@@ -193,12 +202,12 @@
                                                             data-thumbTooltip="" data-scaleUp="" data-href=""
                                                             data-width="" data-height="" data-flashHasPriority=""
                                                             data-poster="" data-autoplay="" data-audiotitle=""
-                                                            href="wp-content/uploads/2018/09/DSC_0578.jpg"></a>
+                                                            href="{{ asset('assets/frontend/wp-content/uploads/2018/09/DSC_0578.jpg') }}"></a>
                                                         <a href="portfolio/the-links-by-badr-residential-cum-commercial-complex-j243/index.html"
                                                             target="_self" class="icon-link"
                                                             title="The Links by BADR Residential cum Commercial Complex &#8211; J243"
                                                             rel="bookmark"></a>
-                                                        <img src="wp-content/uploads/2018/09/DSC_0578-480x319.jpg"
+                                                        <img src="{{ asset('assets/frontend/wp-content/uploads/2018/09/DSC_0578-480x319.jpg') }}"
                                                             alt="" class="" />
                                                     </div>
                                                 </div>
@@ -228,11 +237,11 @@
                                                             data-thumbTooltip="" data-scaleUp="" data-href=""
                                                             data-width="" data-height="" data-flashHasPriority=""
                                                             data-poster="" data-autoplay="" data-audiotitle=""
-                                                            href="wp-content/uploads/2017/01/DSC_4841_Easy-Resize.com_.jpg"></a>
+                                                            href="{{ asset('assets/frontend/wp-content/uploads/2017/01/DSC_4841_Easy-Resize.com_.jpg') }}"></a>
                                                         <a href="portfolio/indian-school-at-wadi-kabir-j236/index.html"
                                                             target="_self" class="icon-link"
                                                             title="INDIAN SCHOOL AT WADI KABIR (J236)" rel="bookmark"></a>
-                                                        <img src="wp-content/uploads/2017/01/DSC_4841_Easy-Resize.com_-480x319.jpg"
+                                                        <img src="{{ asset('assets/frontend/wp-content/uploads/2017/01/DSC_4841_Easy-Resize.com_-480x319.jpg') }}"
                                                             alt="" class="" />
                                                     </div>
                                                 </div>
@@ -260,12 +269,12 @@
                                                             data-thumbTooltip="" data-scaleUp="" data-href=""
                                                             data-width="" data-height="" data-flashHasPriority=""
                                                             data-poster="" data-autoplay="" data-audiotitle=""
-                                                            href="wp-content/uploads/2017/01/DSC_4964_Easy-Resize.com_-e1485699642693.jpg"></a>
+                                                            href="{{ asset('assets/frontend/wp-content/uploads/2017/01/DSC_4964_Easy-Resize.com_-e1485699642693.jpg') }}"></a>
                                                         <a href="portfolio/residentialcommercial-building-at-shatti-al-qurum-j216/index.html"
                                                             target="_self" class="icon-link"
                                                             title="RESIDENTIAL/COMMERCIAL-BUILDING AT SHATTI AL QURUM (J216)"
                                                             rel="bookmark"></a>
-                                                        <img src="wp-content/uploads/2017/01/DSC_4964_Easy-Resize.com_-e1485699642693-480x380.jpg"
+                                                        <img src="{{ asset('assets/frontend/wp-content/uploads/2017/01/DSC_4964_Easy-Resize.com_-e1485699642693-480x380.jpg') }}"
                                                             alt="" class="" />
                                                     </div>
                                                 </div>
@@ -360,8 +369,8 @@
                                             <div class="owl-carousel">
                                                 <div class="testimonial item">
                                                     <div class="client_image gradient">
-                                                        <img src="wp-content/uploads/2014/01/vision1.png" alt=""
-                                                            class="" />
+                                                        <img src="{{ asset('assets/frontend/wp-content/uploads/2014/01/vision1.png') }}"
+                                                            alt="" class="" />
                                                     </div>
                                                     <div class="text with_image">
                                                         <p>
@@ -381,7 +390,7 @@
                                                 </div>
                                                 <div class="testimonial item">
                                                     <div class="client_image gradient">
-                                                        <img src="wp-content/uploads/2014/01/Mission123.jpg"
+                                                        <img src="{{ asset('assets/frontend/wp-content/uploads/2014/01/Mission123.jpg') }}"
                                                             alt="" class="" />
                                                     </div>
                                                     <div class="text with_image">
@@ -397,7 +406,7 @@
                                                 </div>
                                                 <div class="testimonial item">
                                                     <div class="client_image gradient">
-                                                        <img src="wp-content/uploads/2014/01/Core-Values-400x400.jpg"
+                                                        <img src="{{ asset('assets/frontend/wp-content/uploads/2014/01/Core-Values-400x400.jpg') }}"
                                                             alt="" class="" />
                                                     </div>
                                                     <div class="text with_image">
@@ -659,13 +668,7 @@
                                                     <!-- / end div  .blog-head-line -->
                                                     <div class="imgeffect aligncenter">
                                                         <a id="lightbox-854199" class="icon-zoom-in lightbox_"
-                                                            data-group="image_3991" title="Enlarge Image"
-                                                            data-title="HSE Bulletin" data-description=""
-                                                            data-thumbnail="https://uniqueom.com/wp-content/uploads/2021/03/Unique-75x50.jpg"
-                                                            data-thumbTooltip="" data-scaleUp="" data-href=""
-                                                            data-width="" data-height="" data-flashHasPriority=""
-                                                            data-poster="" data-autoplay="" data-audiotitle=""
-                                                            href="wp-content/uploads/2021/03/Unique.jpg"></a>
+                                                            href="{{ asset('assets/frontend/wp-content/uploads/2021/03/Unique.jpg') }}"></a>
                                                         <a href="hse-buliton/index.html" class="icon-link"
                                                             title="HSE Bulletin" rel="bookmark"></a>
                                                         <img src="wp-content/uploads/2021/03/Unique-1040x592.jpg"

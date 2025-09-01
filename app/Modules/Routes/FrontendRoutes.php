@@ -7,6 +7,14 @@ use App\Modules\Controllers\Frontend\Auth\AuthController;
 
 
 Route::get('/', [FrontendController::class, 'HomePage'])->name('HomePage');
+Route::get('/about-us', [FrontendController::class, 'AboutUsPage'])->name('AboutUsPage');
+Route::get('/portfolio', [FrontendController::class, 'PortfolioPage'])->name('PortfolioPage');
+Route::get('/project', [FrontendController::class, 'ProjectPage'])->name('ProjectPage');
+Route::get('/gallery', [FrontendController::class, 'GalleryPage'])->name('GalleryPage');
+Route::get('/blog', [FrontendController::class, 'BlogPage'])->name('BlogPage');
+Route::get('/blog/details', [FrontendController::class, 'BlogDetailsPage'])->name('BlogDetailsPage');
+Route::get('/contact', [FrontendController::class, 'ContactPage'])->name('ContactPage');
+
 
 /*
 |--------------------------------------------------------------------------

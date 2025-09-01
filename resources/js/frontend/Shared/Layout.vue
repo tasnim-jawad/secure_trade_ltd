@@ -1,11 +1,21 @@
 <template>
-    <div>
+    <div id="container">
+
+        <!-- header -->
         <Header />
-        <div class="main-wrapper">
-            <slot />
-        </div>
-        <Footer />
+        <!-- / end tag #header -->
+        <!-- content holder -->
+        <slot />
+        <!-- / end div .content_holder -->
     </div>
+    <Footer />
+    <!-- <div>
+        
+        <div class="main-wrapper">
+            
+        </div>
+        
+    </div> -->
 </template>
 
 <script>

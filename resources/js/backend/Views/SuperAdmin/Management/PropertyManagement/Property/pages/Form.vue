@@ -608,7 +608,8 @@
   </div>
 </template>
 
-<scriimport { mapActions, mapState } from "pinia";
+<script>
+import { mapActions, mapState } from "pinia";
 import { store } from "../store";
 import setup from "../setup";
 import form_fields from "../setup/form_fields";
@@ -1041,7 +1042,7 @@ export default {
     }),
   },
 };
-</scripimport>
+</script>
 <style scoped>
 .image_preview {
   width: 40px;

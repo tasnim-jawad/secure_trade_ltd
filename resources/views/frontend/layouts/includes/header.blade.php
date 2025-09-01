@@ -14,14 +14,14 @@
                 English <span class="icon-angle-down"></span>
                 <ul class="flags">
                     <li>
-                        <img src="wp-content/plugins/polylang/flags/om.png" height="12" alt="ar"
-                            width="18" />
+                        <img src="{{ asset('assets/frontend/wp-content/plugins/polylang/flags/om.png') }}"
+                            height="12" alt="ar" width="18" />
                         <a href="ar/%d8%a7%d9%84%d8%b5%d9%81%d8%ad%d8%a9-%d8%a7%d9%84%d8%b1%d8%a6%d9%8a%d8%b3%d9%8a%d8%a9/index.html"
                             title="العربية"><span>العربية</span></a>
                     </li>
                     <li>
-                        <img src="wp-content/plugins/polylang/flags/us.png" height="12" alt="en"
-                            width="18" />
+                        <img src="{{ asset('assets/frontend/wp-content/plugins/polylang/flags/us.png') }}"
+                            height="12" alt="en" width="18" />
                         <a href="index.html" title="English"><span>English</span></a>
                     </li>
                 </ul>
@@ -41,8 +41,9 @@
             <!-- logo -->
             <section id="logo">
                 <a href="index.html" title="Unique Construction &amp; Contracting LLC"><img
-                        src="wp-content/uploads/2016/01/logo-banner.png" alt="Unique Construction &amp; Contracting LLC"
-                        data-retina="https://uniqueom.com/wp-content/uploads/2015/02/logo-banner.png" /></a>
+                        src="{{ asset('assets/frontend/wp-content/uploads/2016/01/logo-banner.png') }}"
+                        alt="Unique Construction &amp; Contracting LLC"
+                        data-retina="{{ asset('assets/frontend/wp-content/uploads/2015/02/logo-banner.png') }}" /></a>
             </section>
             <!-- end section #logo -->
         </section>
@@ -59,7 +60,7 @@
             <nav id="navigation_bar" class="navigation with_small_logo">
                 <div id="sticky_logo">
                     <a href="index.html" title="Unique Construction &amp; Contracting LLC"><img
-                            src="wp-content/uploads/2016/01/logo-banner.png"
+                            src="{{ asset('assets/frontend/wp-content/uploads/2016/01/logo-banner.png') }}"
                             alt="Unique Construction &amp; Contracting LLC" /></a>
                 </div>
                 <ul id="navigation" class="menu">

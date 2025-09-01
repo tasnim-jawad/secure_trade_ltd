@@ -3,12 +3,22 @@
 <!-- Mirrored from uniqueom.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 31 Aug 2025 09:02:42 GMT -->
 <!-- Added by HTTrack -->
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+<!--[if IE 7]>
+<link rel="stylesheet" id="theme-ie7-css" href="{{ asset('assets/frontend/wp-content/themes/rttheme18/css/ie7.css') }}"
+    type="text/css" media="all" />
+<![endif]-->
+<!--[if lt IE 9]>
+<link rel="stylesheet" id="theme-ltie9-css"
+    href="{{ asset('assets/frontend/wp-content/themes/rttheme18/css/before_ie9.css') }}" type="text/css"
+    media="all" />
+<![endif]-->
 <!-- /Added by HTTrack -->
 
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-    <link rel="icon" type="image/png" href="wp-content/uploads/2015/02/IMG-20150204-WA0006.jpg" />
+    <link rel="icon" type="image/png"
+        href="{{ asset('assets/frontend/wp-content/uploads/2015/02/IMG-20150204-WA0006.jpg') }}" />
     <link rel="alternate" type="application/rss+xml" title="Unique Construction &amp; Contracting LLC RSS Feed"
         href="feed/index.html" />
     <link rel="alternate" type="application/atom+xml" title="Unique Construction &amp; Contracting LLC Atom Feed"
@@ -50,7 +60,7 @@
             svgUrl: "https:\/\/s.w.org\/images\/core\/emoji\/11\/svg\/",
             svgExt: ".svg",
             source: {
-                concatemoji: "https:\/\/uniqueom.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.9.26"
+                concatemoji: "",
             },
         };
         !(function(e, a, t) {
@@ -133,26 +143,26 @@
         }
     </style>
     <link rel="stylesheet" id="layerslider-css"
-        href="wp-content/plugins/LayerSlider/static/layerslider/css/layersliderd3c7.css?ver=6.5.1" type="text/css"
-        media="all" />
+        href="{{ asset('assets/frontend/wp-content/plugins/LayerSlider/static/layerslider/css/layersliderd3c7.css?ver=6.5.1') }}"
+        type="text/css" media="all" />
     <link rel="stylesheet" id="ls-google-fonts-css"
         href="https://fonts.googleapis.com/css?family=Lato:100,300,regular,700,900%7COpen+Sans:300%7CIndie+Flower:regular%7COswald:300,regular,700&amp;subset=latin%2Clatin-ext"
         type="text/css" media="all" />
     <link rel="stylesheet" id="jquery-ui-css"
-        href="wp-content/plugins/candidate-application-form/css/jquery-ui092c.css?ver=4.9.26" type="text/css"
-        media="all" />
+        href="{{ asset('assets/frontend/wp-content/plugins/candidate-application-form/css/jquery-ui092c.css?ver=4.9.26') }}"
+        type="text/css" media="all" />
     <link rel="stylesheet" id="jquery.ui.theme-css"
-        href="wp-content/plugins/candidate-application-form/js/themes/base/jquery.ui.theme092c.css?ver=4.9.26"
+        href="{{ asset('assets/frontend/wp-content/plugins/candidate-application-form/js/themes/base/jquery.ui.theme092c.css?ver=4.9.26') }}"
         type="text/css" media="all" />
     <link rel="stylesheet" id="af-style-ic-css"
-        href="wp-content/plugins/candidate-application-form/css/style-ic092c.css?ver=4.9.26" type="text/css"
-        media="all" />
+        href="{{ asset('assets/frontend/wp-content/plugins/candidate-application-form/css/style-ic092c.css?ver=4.9.26') }}"
+        type="text/css" media="all" />
     <link rel="stylesheet" id="af-mediaform-css"
-        href="wp-content/plugins/candidate-application-form/css/mediaform092c.css?ver=4.9.26" type="text/css"
-        media="all" />
+        href="{{ asset('assets/frontend/wp-content/plugins/candidate-application-form/css/mediaform092c.css?ver=4.9.26') }}"
+        type="text/css" media="all" />
     <link rel="stylesheet" id="rs-plugin-settings-css"
-        href="wp-content/plugins/revslider/public/assets/css/settings9009.css?ver=5.4.5.1" type="text/css"
-        media="all" />
+        href="{{ asset('assets/frontend/wp-content/plugins/revslider/public/assets/css/settings9009.css?ver=5.4.5.1') }}"
+        type="text/css" media="all" />
     <style id="rs-plugin-settings-inline-css" type="text/css">
         .tp-caption a {
             color: #ff7302;
@@ -167,58 +177,57 @@
             color: #ffa902;
         }
     </style>
-    <link rel="stylesheet" id="normalize-css" href="wp-content/themes/rttheme18/css/normalize092c.css?ver=4.9.26"
+    <link rel="stylesheet" id="normalize-css"
+        href="{{ asset('assets/frontend/wp-content/themes/rttheme18/css/normalize092c.css?ver=4.9.26') }}"
         type="text/css" media="all" />
     <link rel="stylesheet" id="theme-framework-css"
-        href="wp-content/themes/rttheme18/css/rt-css-framework092c.css?ver=4.9.26" type="text/css" media="all" />
+        href="{{ asset('assets/frontend/wp-content/themes/rttheme18/css/rt-css-framework092c.css?ver=4.9.26') }}"
+        type="text/css" media="all" />
     <link rel="stylesheet" id="fontello-css"
-        href="wp-content/themes/rttheme18/css/fontello/css/fontello092c.css?ver=4.9.26" type="text/css"
-        media="all" />
+        href="{{ asset('assets/frontend/wp-content/themes/rttheme18/css/fontello/css/fontello092c.css?ver=4.9.26') }}"
+        type="text/css" media="all" />
     <link rel="stylesheet" id="jackbox-css"
-        href="wp-content/themes/rttheme18/js/lightbox/css/jackbox.min092c.css?ver=4.9.26" type="text/css"
-        media="all" />
-    <link rel="stylesheet" id="theme-style-all-css" href="wp-content/themes/rttheme18/css/style092c.css?ver=4.9.26"
+        href="{{ asset('assets/frontend/wp-content/themes/rttheme18/js/lightbox/css/jackbox.min092c.css?ver=4.9.26') }}"
+        type="text/css" media="all" />
+    <link rel="stylesheet" id="theme-style-all-css"
+        href="{{ asset('assets/frontend/wp-content/themes/rttheme18/css/style092c.css?ver=4.9.26') }}"
         type="text/css" media="all" />
     <link rel="stylesheet" id="jquery-owl-carousel-css"
-        href="wp-content/themes/rttheme18/css/owl.carousel092c.css?ver=4.9.26" type="text/css" media="all" />
+        href="{{ asset('assets/frontend/wp-content/themes/rttheme18/css/owl.carousel092c.css?ver=4.9.26') }}"
+        type="text/css" media="all" />
     <link rel="stylesheet" id="flex-slider-css-css"
-        href="wp-content/themes/rttheme18/css/flexslider092c.css?ver=4.9.26" type="text/css" media="all" />
+        href="{{ asset('assets/frontend/wp-content/themes/rttheme18/css/flexslider092c.css?ver=4.9.26') }}"
+        type="text/css" media="all" />
     <link rel="stylesheet" id="progression-player-css"
-        href="wp-content/themes/rttheme18/js/video_player/progression-player092c.css?ver=4.9.26" type="text/css"
-        media="all" />
+        href="{{ asset('assets/frontend/wp-content/themes/rttheme18/js/video_player/progression-player092c.css?ver=4.9.26') }}"
+        type="text/css" media="all" />
     <link rel="stylesheet" id="progression-skin-minimal-light-css"
-        href="wp-content/themes/rttheme18/js/video_player/skin-minimal-light092c.css?ver=4.9.26" type="text/css"
-        media="all" />
-    <link rel="stylesheet" id="isotope-css-css" href="wp-content/themes/rttheme18/css/isotope092c.css?ver=4.9.26"
+        href="{{ asset('assets/frontend/wp-content/themes/rttheme18/js/video_player/skin-minimal-light092c.css?ver=4.9.26') }}"
+        type="text/css" media="all" />
+    <link rel="stylesheet" id="isotope-css-css"
+        href="{{ asset('assets/frontend/wp-content/themes/rttheme18/css/isotope092c.css?ver=4.9.26') }}"
         type="text/css" media="all" />
     <link rel="stylesheet" id="jquery-colortip-css"
-        href="wp-content/themes/rttheme18/css/colortip-1.0-jquery092c.css?ver=4.9.26" type="text/css"
-        media="all" />
-    <link rel="stylesheet" id="animate-css" href="wp-content/themes/rttheme18/css/animate092c.css?ver=4.9.26"
+        href="{{ asset('assets/frontend/wp-content/themes/rttheme18/css/colortip-1.0-jquery092c.css?ver=4.9.26') }}"
+        type="text/css" media="all" />
+    <link rel="stylesheet" id="animate-css"
+        href="{{ asset('assets/frontend/wp-content/themes/rttheme18/css/animate092c.css?ver=4.9.26') }}"
         type="text/css" media="all" />
     <!--[if IE 7]>
-      <link
-         rel="stylesheet"
-         id="theme-ie7-css"
-         href="https://uniqueom.com/wp-content/themes/rttheme18/css/ie7.css?ver=4.9.26"
-         type="text/css"
-         media="all"
-         />
-      <![endif]-->
+<link rel="stylesheet" id="theme-ie7-css"
+    href="https://uniqueom.com/wp-content/themes/rttheme18/css/ie7.css?ver=4.9.26" type="text/css" media="all" />
+<![endif]-->
     <!--[if lt IE 9]>
-      <link
-         rel="stylesheet"
-         id="theme-ltie9-css"
-         href="https://uniqueom.com/wp-content/themes/rttheme18/css/before_ie9.css?ver=4.9.26"
-         type="text/css"
-         media="all"
-         />
-      <![endif]-->
-    <link rel="stylesheet" id="theme-skin-css" href="wp-content/themes/rttheme18/css/blue-style092c.css?ver=4.9.26"
-        type="text/css" media="all" />
+<link rel="stylesheet" id="theme-ltie9-css"
+    href="https://uniqueom.com/wp-content/themes/rttheme18/css/before_ie9.css?ver=4.9.26" type="text/css"
+    media="all" />
+<![endif]-->
+    <link rel="stylesheet" id="theme-skin-css"
+        href="{{ asset('assets/frontend/wp-content/themes/rttheme18/css/blue-style092c.css') }}" type="text/css"
+        media="all" />
     <style id="theme-skin-inline-css" type="text/css">
         .retina#logo {
-            background: url("wp-content/uploads/2015/02/logo-banner.png") no-repeat scroll 0 0 / 100% auto transparent;
+            background: url("{{ asset('assets/frontend/wp-content/uploads/2015/02/logo-banner.png') }}") no-repeat scroll 0 0 / 100% auto transparent;
             -moz-background-size: 100%;
             -webkit-background-size: 100%;
             -o-background-size: 100%;
@@ -393,8 +402,9 @@
         media="all" />
     <link rel="stylesheet" id="serif-css" href="http://fonts.googleapis.com/css?family=PT+Serif&amp;ver=4.9.26"
         type="text/css" media="all" />
-    <link rel="stylesheet" id="theme-style-css" href="wp-content/themes/rttheme18/style092c.css?ver=4.9.26"
-        type="text/css" media="all" />
+    <link rel="stylesheet" id="theme-style-css"
+        href="{{ asset('assets/frontend/wp-content/themes/rttheme18/style092c.css?ver=4.9.26') }}" type="text/css"
+        media="all" />
     <script type="text/javascript">
         /* <![CDATA[ */
         var LS_Meta = {
@@ -403,16 +413,22 @@
         /* ]]> */
     </script>
     <script type="text/javascript" data-cfasync="false"
-        src="wp-content/plugins/LayerSlider/static/layerslider/js/greensockb3a6.js?ver=1.19.0"></script>
-    <script type="text/javascript" src="wp-includes/js/jquery/jqueryb8ff.js?ver=1.12.4"></script>
-    <script type="text/javascript" src="wp-includes/js/jquery/jquery-migrate.min330a.js?ver=1.4.1"></script>
+        src="{{ asset('assets/frontend/wp-content/plugins/LayerSlider/static/layerslider/js/greensockb3a6.js?ver=1.19.0') }}">
+    </script>
+    <script type="text/javascript" src="{{ asset('assets/frontend/wp-includes/js/jquery/jqueryb8ff.js?ver=1.12.4') }}">
+    </script>
+    <script type="text/javascript"
+        src="{{ asset('assets/frontend/wp-includes/js/jquery/jquery-migrate.min330a.js?ver=1.4.1') }}"></script>
     <script type="text/javascript" data-cfasync="false"
-        src="wp-content/plugins/LayerSlider/static/layerslider/js/layerslider.kreaturamedia.jqueryd3c7.js?ver=6.5.1">
+        src="{{ asset('assets/frontend/wp-content/plugins/LayerSlider/static/layerslider/js/layerslider.kreaturamedia.jqueryd3c7.js?ver=6.5.1') }}">
     </script>
     <script type="text/javascript" data-cfasync="false"
-        src="wp-content/plugins/LayerSlider/static/layerslider/js/layerslider.transitionsd3c7.js?ver=6.5.1"></script>
-    <script type="text/javascript" src="wp-includes/js/plupload/moxie.mine34c.js?ver=1.3.5"></script>
-    <script type="text/javascript" src="wp-includes/js/plupload/plupload.min6c17.js?ver=2.1.9"></script>
+        src="{{ asset('assets/frontend/wp-content/plugins/LayerSlider/static/layerslider/js/layerslider.transitionsd3c7.js?ver=6.5.1') }}">
+    </script>
+    <script type="text/javascript" src="{{ asset('assets/frontend/wp-includes/js/plupload/moxie.mine34c.js?ver=1.3.5') }}">
+    </script>
+    <script type="text/javascript"
+        src="{{ asset('assets/frontend/wp-includes/js/plupload/plupload.min6c17.js?ver=2.1.9') }}"></script>
 </head>
 
 <body
@@ -451,38 +467,57 @@
             font-size: 22px;
         }
     </style>
-    <script type="text/javascript" src="wp-includes/js/jquery/ui/core.mine899.js?ver=1.11.4"></script>
-    <script type="text/javascript" src="wp-includes/js/jquery/ui/widget.mine899.js?ver=1.11.4"></script>
-    <script type="text/javascript" src="wp-includes/js/jquery/ui/mouse.mine899.js?ver=1.11.4"></script>
-    <script type="text/javascript" src="wp-includes/js/jquery/ui/draggable.mine899.js?ver=1.11.4"></script>
-    <script type="text/javascript" src="wp-includes/js/jquery/ui/resizable.mine899.js?ver=1.11.4"></script>
-    <script type="text/javascript" src="wp-includes/js/jquery/ui/button.mine899.js?ver=1.11.4"></script>
-    <script type="text/javascript" src="wp-includes/js/jquery/ui/position.mine899.js?ver=1.11.4"></script>
-    <script type="text/javascript" src="wp-includes/js/jquery/ui/dialog.mine899.js?ver=1.11.4"></script>
-    <script type="text/javascript" src="wp-content/themes/rttheme18/js/jquery.easing.1.3092c.js?ver=4.9.26"></script>
-    <script type="text/javascript" src="wp-content/themes/rttheme18/js/jquery.tools.min092c.js?ver=4.9.26"></script>
-    <script type="text/javascript" src="wp-content/themes/rttheme18/js/waypoints.min092c.js?ver=4.9.26"></script>
     <script type="text/javascript"
-        src="wp-content/themes/rttheme18/js/video_player/mediaelement-and-player.min092c.js?ver=4.9.26"></script>
-    <script type="text/javascript" src="wp-content/themes/rttheme18/js/lightbox/js/jackbox-packed.min092c.js?ver=4.9.26">
+        src="{{ asset('assets/frontend/wp-includes/js/jquery/ui/core.mine899.js?ver=1.11.4') }}"></script>
+    <script type="text/javascript"
+        src="{{ asset('assets/frontend/wp-includes/js/jquery/ui/widget.mine899.js?ver=1.11.4') }}"></script>
+    <script type="text/javascript"
+        src="{{ asset('assets/frontend/wp-includes/js/jquery/ui/mouse.mine899.js?ver=1.11.4') }}"></script>
+    <script type="text/javascript"
+        src="{{ asset('assets/frontend/wp-includes/js/jquery/ui/draggable.mine899.js?ver=1.11.4') }}"></script>
+    <script type="text/javascript"
+        src="{{ asset('assets/frontend/wp-includes/js/jquery/ui/resizable.mine899.js?ver=1.11.4') }}"></script>
+    <script type="text/javascript"
+        src="{{ asset('assets/frontend/wp-includes/js/jquery/ui/button.mine899.js?ver=1.11.4') }}"></script>
+    <script type="text/javascript"
+        src="{{ asset('assets/frontend/wp-includes/js/jquery/ui/position.mine899.js?ver=1.11.4') }}"></script>
+    <script type="text/javascript"
+        src="{{ asset('assets/frontend/wp-includes/js/jquery/ui/dialog.mine899.js?ver=1.11.4') }}"></script>
+    <script type="text/javascript"
+        src="{{ asset('assets/frontend/wp-content/themes/rttheme18/js/jquery.easing.1.3092c.js?ver=4.9.26') }}"></script>
+    <script type="text/javascript"
+        src="{{ asset('assets/frontend/wp-content/themes/rttheme18/js/jquery.tools.min092c.js?ver=4.9.26') }}"></script>
+    <script type="text/javascript"
+        src="{{ asset('assets/frontend/wp-content/themes/rttheme18/js/waypoints.min092c.js?ver=4.9.26') }}"></script>
+    <script type="text/javascript"
+        src="{{ asset('assets/frontend/wp-content/themes/rttheme18/js/video_player/mediaelement-and-player.min092c.js?ver=4.9.26') }}">
     </script>
-    <script type="text/javascript" src="wp-content/themes/rttheme18/js/colortip-1.0-jquery092c.js?ver=4.9.26"></script>
-    <script type="text/javascript" src="wp-content/themes/rttheme18/js/jquery.flexslider092c.js?ver=4.9.26"></script>
+    <script type="text/javascript"
+        src="{{ asset('assets/frontend/wp-content/themes/rttheme18/js/lightbox/js/jackbox-packed.min092c.js?ver=4.9.26') }}">
+    </script>
+    <script type="text/javascript"
+        src="{{ asset('assets/frontend/wp-content/themes/rttheme18/js/colortip-1.0-jquery092c.js?ver=4.9.26') }}"></script>
+    <script type="text/javascript"
+        src="{{ asset('assets/frontend/wp-content/themes/rttheme18/js/jquery.flexslider092c.js?ver=4.9.26') }}"></script>
     <script type="text/javascript">
         /* <![CDATA[ */
         var rt_theme_params = {
-            ajax_url: "https:\/\/uniqueom.com\/wp-admin\/admin-ajax.php?lang=en",
-            rttheme_template_dir: "https:\/\/uniqueom.com\/wp-content\/themes\/rttheme18",
+            ajax_url: "{{ route('ajax.handler') }}",
+            rttheme_template_dir: "{{ asset('assets/frontend/wp-content/themes/rttheme18') }}",
             sticky_logo: "on",
             content_animations: "on",
             page_loading: "on",
         };
         /* ]]> */
     </script>
-    <script type="text/javascript" src="wp-content/themes/rttheme18/js/script092c.js?ver=4.9.26"></script>
-    <script type="text/javascript" src="wp-includes/js/comment-reply.min092c.js?ver=4.9.26"></script>
-    <script type="text/javascript" src="wp-includes/js/wp-embed.min092c.js?ver=4.9.26"></script>
-    <script type="text/javascript" src="wp-content/themes/rttheme18/js/owl.carousel.min092c.js?ver=4.9.26"></script>
+    <script type="text/javascript"
+        src="{{ asset('assets/frontend/wp-content/themes/rttheme18/js/script092c.js?ver=4.9.26') }}"></script>
+    <script type="text/javascript" src="{{ asset('assets/frontend/wp-includes/js/comment-reply.min092c.js?ver=4.9.26') }}">
+    </script>
+    <script type="text/javascript" src="{{ asset('assets/frontend/wp-includes/js/wp-embed.min092c.js?ver=4.9.26') }}">
+    </script>
+    <script type="text/javascript"
+        src="{{ asset('assets/frontend/wp-content/themes/rttheme18/js/owl.carousel.min092c.js?ver=4.9.26') }}"></script>
 </body>
 <!-- Mirrored from uniqueom.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 31 Aug 2025 09:03:32 GMT -->
 
