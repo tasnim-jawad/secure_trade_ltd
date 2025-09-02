@@ -6,42 +6,7 @@
   </section>
   <!-- / end section #mobile_bar -->
   <!-- top bar -->
-  <section id="top_bar" class="clearfix">
-    <div class="top_bar_container">
-      <ul id="top_navigation" class="top_links">
-        <!--  top links -->
-        <!-- / end ul .top_links -->
-        <li class="languages icon-globe-1">
-          English <span class="icon-angle-down"></span>
-          <ul class="flags">
-            <li>
-              <img
-                src="/assets/frontend/wp-content/plugins/polylang/flags/om.png"
-                height="12"
-                alt="ar"
-                width="18"
-              />
-              <a
-                href="ar/%d8%a7%d9%84%d8%b5%d9%81%d8%ad%d8%a9-%d8%a7%d9%84%d8%b1%d8%a6%d9%8a%d8%b3%d9%8a%d8%a9/index.html"
-                title="العربية"
-                ><span>العربية</span></a
-              >
-            </li>
-            <li>
-              <img
-                src="/assets/frontend/wp-content/plugins/polylang/flags/us.png"
-                height="12"
-                alt="en"
-                width="18"
-              />
-              <a href="index.html" title="English"><span>English</span></a>
-            </li>
-          </ul>
-        </li>
-      </ul>
-    </div>
-    <!-- / end div .top_bar_container -->
-  </section>
+
   <!-- / end section #top_bar -->
   <!-- header -->
   <header id="header">
@@ -73,11 +38,9 @@
       <div class="nav_border">
         <nav id="navigation_bar" class="navigation with_small_logo">
           <div id="sticky_logo">
-            <Link
-              href="/"
-              title="Unique Construction &amp; Contracting LLC"
+            <Link href="/" title="Unique Construction &amp; Contracting LLC"
               ><img
-                src="/assets/frontend/wp-content/uploads/2016/01/logo-banner.png"
+                src="/uploads/stc_image/logo.jpeg"
                 alt="Unique Construction &amp; Contracting LLC"
             /></Link>
           </div>
@@ -94,7 +57,7 @@
               class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children hasSubMenu top-level-1"
               data-column-size="0"
             >
-            <Link href="/about-us">ABOUT US</Link>
+              <Link href="/about-us">ABOUT US</Link>
               <!-- <ul class="sub-menu">
                 <li
                   id="menu-item-3698"
@@ -168,22 +131,20 @@
               data-column-size="0"
             >
               <Link href="/gallery">Gallery</Link>
-              <!-- <ul class="sub-menu">
+              <ul class="sub-menu">
                 <li
                   id="menu-item-2648"
                   class="menu-item menu-item-type-post_type menu-item-object-page"
                 >
-                  <a href="carpentry/index.html">Carpentry Division</a>
+                  <Link href="/gallery/images">Images</Link>
                 </li>
                 <li
                   id="menu-item-2743"
                   class="menu-item menu-item-type-post_type menu-item-object-page"
                 >
-                  <a href="fabrication-division/index.html"
-                    >Fabrication Division</a
-                  >
+                  <Link href="/gallery/videos">Videos</Link>
                 </li>
-                <li
+                <!-- <li
                   id="menu-item-2746"
                   class="menu-item menu-item-type-post_type menu-item-object-page"
                 >
@@ -216,8 +177,8 @@
                   class="menu-item menu-item-type-post_type menu-item-object-page"
                 >
                   <a href="aluminium-division/index.html">Aluminium Division</a>
-                </li>
-              </ul> -->
+                </li> -->
+              </ul>
             </li>
             <li
               id="menu-item-3994"
@@ -226,13 +187,13 @@
             >
               <Link href="/blog">Blog</Link>
             </li>
-            <!-- <li
+            <li
               id="menu-item-2734"
               class="menu-item menu-item-type-post_type menu-item-object-page top-level-5"
               data-column-size="0"
             >
-              <Link href="/careers">CAREERS</Link>
-            </li> -->
+              <Link href="/team">Board of Directors</Link>
+            </li>
             <li
               id="menu-item-2206"
               class="menu-item menu-item-type-post_type menu-item-object-page top-level-6"
@@ -245,10 +206,7 @@
               class="lang-item lang-item-85 lang-item-ar menu-item menu-item-type-custom menu-item-object-custom top-level-7"
               data-column-size="0"
             >
-              <a
-                href="/login"
-                >العربية</a
-              >
+              <a href="/login">Login</a>
             </li>
           </ul>
         </nav>
@@ -260,7 +218,7 @@
 </template>
 
 <script>
-import { Link } from '@inertiajs/vue3';
+import { Link } from "@inertiajs/vue3";
 
 export default {
   data: () => ({

@@ -26,5 +26,5 @@ yarn-error.log
 *.jpg
 *.jpeg
 *.png
-uploads/
+
 public/storage/

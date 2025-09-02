@@ -42,11 +42,29 @@ class FrontendController extends Controller
         ]);
     }
 
+    public function PortfolioPropertyPage()
+    {
+        return Inertia::render('Portfolio/Property', [
+            'event' => [
+                'title' => 'Portfolio Property',
+            ]
+        ]);
+    }
+
     public function ProjectPage()
     {
         return Inertia::render('Project/Index', [
             'event' => [
                 'title' => 'Project',
+            ]
+        ]);
+    }
+
+    public function TeamPage()
+    {
+        return Inertia::render('Team/Index', [
+            'event' => [
+                'title' => 'Team',
             ]
         ]);
     }
@@ -58,6 +76,26 @@ class FrontendController extends Controller
         return Inertia::render('Gallery/Index', [
             'event' => [
                 'title' => 'Gallery ',
+            ]
+        ]);
+    }
+    public function GalleryImagesPage()
+    {
+
+        return Inertia::render('Gallery/Images', [
+            'event' => [
+                'title' => 'Gallery Images',
+            ]
+        ]);
+    }
+  
+    
+    public function GalleryVideosPage()
+    {
+
+        return Inertia::render('Gallery/Videos', [
+            'event' => [
+                'title' => 'Gallery Videos',
             ]
         ]);
     }
