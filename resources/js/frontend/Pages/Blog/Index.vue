@@ -127,9 +127,13 @@
                   :alt="featuredBlog.title"
                   class="blog-image"
                 />
-                <div class="play-overlay">
+                <button
+                  class="play-overlay"
+                  @click.stop.prevent="openVideo(featuredBlog.url)"
+                  aria-label="Play video"
+                >
                   <i class="fas fa-play"></i>
-                </div>
+                </button>
               </div>
               <div class="featured-badge">Featured</div>
             </div>
@@ -185,9 +189,13 @@
                     :alt="blog.title"
                     class="blog-image"
                   />
-                  <div class="play-overlay">
+                  <button
+                    class="play-overlay"
+                    @click.stop.prevent="openVideo(blog.url)"
+                    aria-label="Play video"
+                  >
                     <i class="fas fa-play"></i>
-                  </div>
+                  </button>
                 </div>
                 <div v-else class="no-image">
                   <i class="fas fa-file-alt"></i>
@@ -229,10 +237,15 @@
                     <i class="fas fa-user"></i>
                     <span>{{ blog.writer }}</span>
                   </div>
-                  <div class="read-more-btn">
-                    <span>Read More</span>
-                    <i class="fas fa-arrow-right"></i>
-                  </div>
+                  <Link
+                    :href="`/blog/${blog.id}`"
+                    class="read-more-link text-decoration-none"
+                  >
+                    <div class="read-more-btn">
+                      <span>Read More</span>
+                      <i class="fas fa-arrow-right"></i>
+                    </div>
+                  </Link>
                 </div>
               </div>
             </Link>
@@ -292,6 +305,9 @@
 <script>
 import { ref, computed } from "vue";
 import { Link } from "@inertiajs/vue3";
+import $ from "jquery";
+import "magnific-popup";
+import "magnific-popup/dist/magnific-popup.css";
 
 export default {
   components: {
@@ -313,8 +329,8 @@ export default {
         meta_description:
           "Learn about our comprehensive HSE protocols and safety measures in construction",
         meta_keywords: "safety, construction, hse, protocols, training",
-        thumbnail_image: "/uploads/blog/hse-thumb.jpg",
-        image: "/uploads/blog/hse-safety.jpg",
+        thumbnail_image: "/uploads/blog/thumbnail_image/2025/06/image_1.jpg",
+        image: "/uploads/blog/thumbnail_image/2025/06/image_1.jpg",
         url: null,
         created_at: "2024-03-15T10:00:00Z",
         updated_at: "2024-03-15T10:00:00Z",
@@ -333,8 +349,8 @@ export default {
           "Discover our sustainable building practices and green construction methods",
         meta_keywords:
           "sustainable, green building, eco-friendly, construction",
-        thumbnail_image: "/uploads/blog/sustainable-thumb.jpg",
-        image: "/uploads/blog/sustainable-building.jpg",
+        thumbnail_image: "/uploads/blog/thumbnail_image/2025/06/image_2.jpg",
+        image: "/uploads/blog/thumbnail_image/2025/06/image_2.jpg",
         url: null,
         created_at: "2024-03-10T14:30:00Z",
         updated_at: "2024-03-10T14:30:00Z",
@@ -352,8 +368,8 @@ export default {
         meta_description:
           "Explore modern construction technologies and innovations in building",
         meta_keywords: "technology, bim, construction, innovation, automation",
-        thumbnail_image: "/uploads/blog/tech-thumb.jpg",
-        image: null,
+        thumbnail_image: "/uploads/blog/thumbnail_image/2025/06/image_3.jpg",
+        image: "/uploads/blog/thumbnail_image/2025/06/image_3.jpg",
         url: "/uploads/blog/construction-tech.mp4",
         created_at: "2024-03-05T09:15:00Z",
         updated_at: "2024-03-05T09:15:00Z",
@@ -371,8 +387,8 @@ export default {
         meta_description:
           "Learn about our project management excellence and methodologies",
         meta_keywords: "project management, construction, planning, quality",
-        thumbnail_image: "/uploads/blog/project-thumb.jpg",
-        image: "/uploads/blog/project-management.jpg",
+        thumbnail_image: "/uploads/blog/thumbnail_image/2025/06/image_4.jpg",
+        image: "/uploads/blog/thumbnail_image/2025/06/image_4.jpg",
         url: null,
         created_at: "2024-02-28T11:20:00Z",
         updated_at: "2024-02-28T11:20:00Z",
@@ -391,8 +407,8 @@ export default {
           "Understand our comprehensive quality assurance processes",
         meta_keywords:
           "quality assurance, construction, standards, inspections",
-        thumbnail_image: "/uploads/blog/quality-thumb.jpg",
-        image: "/uploads/blog/quality-assurance.jpg",
+        thumbnail_image: "/uploads/blog/thumbnail_image/2025/06/image_4.jpg",
+        image: "/uploads/blog/thumbnail_image/2025/06/image_1.jpg",
         url: null,
         created_at: "2024-02-20T16:45:00Z",
         updated_at: "2024-02-20T16:45:00Z",
@@ -411,9 +427,9 @@ export default {
           "Discover our client partnership approach and communication strategies",
         meta_keywords:
           "client partnership, communication, construction, relationships",
-        thumbnail_image: "/uploads/blog/client-thumb.jpg",
+        thumbnail_image: "/uploads/blog/thumbnail_image/2025/06/image_6.jpg",
         image: null,
-        url: "/uploads/blog/client-communication.mp4",
+        url: "https://www.youtube.com/watch?v=A5zLYDP0iG8",
         created_at: "2024-02-15T13:30:00Z",
         updated_at: "2024-02-15T13:30:00Z",
       },
@@ -515,6 +531,32 @@ export default {
       currentPage.value = 1;
     };
 
+    // Open YouTube link in Magnific Popup iframe
+    const openVideo = (url) => {
+      if (!url) return;
+      // initialize and open directly
+      $.magnificPopup.open({
+        items: {
+          src: url,
+        },
+        type: "iframe",
+        mainClass: "mfp-fade",
+        removalDelay: 160,
+        preloader: false,
+        fixedContentPos: false,
+        iframe: {
+          patterns: {
+            youtube: {
+              index: "youtube.com/",
+              id: "v=",
+              src: "https://www.youtube.com/embed/%id%?autoplay=1",
+            },
+          },
+          srcAction: "iframe_src",
+        },
+      });
+    };
+
     const getCategoryName = (categoryId) => {
       const category = categories.value.find((cat) => cat.id === categoryId);
       return category ? category.name : "Uncategorized";
@@ -573,6 +615,7 @@ export default {
       formatDate,
       getExcerpt,
       getTags,
+      openVideo, // expose to template
     };
   },
 };
@@ -606,14 +649,14 @@ export default {
   text-align: center;
 }
 
-
 .hero-overlay {
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  background: url("/uploads/property_dark/property_dark_5.jpeg") center center no-repeat;
+  background: url("/uploads/property_dark/property_dark_5.jpeg") center center
+    no-repeat;
   background-size: cover;
   opacity: 0.3;
   z-index: 1;
@@ -1135,7 +1178,9 @@ export default {
 .blog-author i {
   color: #10b981;
 }
-
+.read-more-link {
+  text-decoration: none !important;
+}
 .read-more-btn {
   background: transparent;
   color: #10b981;
@@ -1149,12 +1194,14 @@ export default {
   align-items: center;
   gap: 0.5rem;
   font-size: 0.875rem;
+  text-decoration: none !important;
 }
 
 .read-more-btn:hover {
   background: #10b981;
   color: #ffffff;
   transform: translateX(4px);
+  text-decoration: none !important;
 }
 
 /* Pagination */
